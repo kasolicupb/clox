@@ -1,0 +1,13 @@
+//
+// Created by Andrew Li on 2023/1/2.
+//
+
+#ifndef CLOX_COMPILER_H
+#define CLOX_COMPILER_H
+
+#include "object.h"
+#include "vm.h"
+
+ObjFunction* compile(const char* source);
+
+#endif //CLOX_COMPILER_H
